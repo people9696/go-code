@@ -33,12 +33,12 @@ func main() {
 	// 多个条件
 	score := 85
 	if score >= 90 && score <= 100 {
-		fmt.Println("优秀")
+		fmt.Println("成绩优秀")
 	} else if score >= 80 {
-		fmt.Println("良好")
+		fmt.Println("成绩良好")
 	} else if score >= 60 {
-		fmt.Println("及格")
+		fmt.Println("成绩及格")
 	} else {
-		fmt.Println("不及格")
+		fmt.Println("成绩不及格")
 	}
 }
